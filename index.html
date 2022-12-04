@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>outline</title>
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <h1>outline</h1>
+    <h2>Try it</h2>
+    <div class="outline1">This is a box with an outline around it.</div>
+    <div class="outline2">This is a box with an outline around it.</div>
+    <div class="outline3">This is a box with an outline around it.</div>
+    <div class="outline4">This is a box with an outline around it.</div>
+    <div class="outline5">This is a box with an outline around it.</div>
+    <h2>Constituent properties</h2>
+    <ul>
+      <li>outline-color</li>
+      <li>outline-style</li>
+      <li>outline-width</li>
+    </ul>
+    <h2>Syntax</h2>
+    <pre>
+      /* style */
+      outline: solid;
+      
+      /* color | style */
+      outline: #f66 dashed;
+      
+      /* style | width */
+      outline: inset thick;
+      
+      /* color | style | width */
+      outline: green solid 3px;
+      
+      /* Global values */
+      outline: inherit;
+      outline: initial;
+      outline: revert;
+      outline: revert-layer;
+      outline: unset;    
+    </pre>
+    <h2>Values</h2>
+    <ul>
+      <li><code>&lt;'outline-color'&gt;</code></li>
+      <li><code>&lt;'outline-style'&gt;</code></li>
+      <li><code>&lt;'outline-line'&gt;</code></li>
+    </ul>
+    <h2>Description</h2>
+    <ul>
+      <li>border</li>
+      <li>outline-offset</li>
+      <li>border-radius</li>
+    </ul>
+    <h2>Accessibility concerns</h2>
+    <ul>
+      <li>How to Design Useful and Usable Focus Indicators</li>
+      <li>WCAG 2.1: Understanding Success Criterion 2.4.7: Focus Visible</li>
+    </ul>
+    <h2>Formal definition</h2>
+    <table>
+      <tbody>
+        <th>Initial value</th>
+        <td></td>
+        <th>Applies to</th>
+        <td></td>
+        <th>Inherited</th>
+        <td></td>
+        <th>Computed value</th>
+        <td></td>
+        <th>Animation type</th>
+        <td></td>
+      </tbody>
+    </table>
+    <h2>Formal syntax</h2>
+    <pre>
+      outline = 
+      &lt;'outline-color'&gt;  ||
+      &lt;'outline-style'&gt;  ||
+      &lt;'outline-width'&gt;  
+    </pre>
+    <h2>Examples</h2>
+    <strong>👍 Using outline to set a focus style</strong>
+    <h3>HTML</h3>
+    <pre>
+    &lt;a href="#"&gt;This link has a special focus style.&lt;/a&gt;
+    </pre>
+    <h3>CSS</h3>
+    <pre>
+      a {
+        border: 1px solid;
+        border-radius: 3px;
+        display: inline-block;
+        margin: 10px;
+        padding: 5px;
+      }
+      
+      a:focus {
+        outline: 4px dotted #e73;
+        outline-offset: 4px;
+        background: #ffa;
+      }    
+    </pre>
+    <h3>Result</h3>
+    <div class="result">
+      <a href="#">This link has a special focus style.</a>
+    </div>
+    <h2>Specifications</h2>
+    <h3>Specification</h3>
+    <ul>
+      <li>
+        CSS Basic User Interface Module Level 4
+        <ul>
+          <li># outline</li>
+        </ul>
+      </li>
+    </ul>
+    <h2>Browser compatibility</h2>
+    <p>Report problems with this compatibility data on GitHub desktop</p>
+    <small>📌 Tip: you can click/tap on a cell for more information.</small>
+    <ul>
+      <li>Full support</li>
+      <li>Partial support</li>
+      <li>No support</li>
+      <li>Requires a vendor prefix or different name for use.</li>
+      <li>Has more compatibility info.</li>
+    </ul>
+    <h2>See also</h2>
+    <ul>
+      <li>outline-color</li>
+      <li>outline-style</li>
+      <li>outline-width</li>
+    </ul>
+  </body>
+</html>
