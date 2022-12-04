@@ -15,11 +15,16 @@
   <body>
     <h1>outline</h1>
     <h2>Try it</h2>
-    <div class="outline1">This is a box with an outline around it.</div>
-    <div class="outline2">This is a box with an outline around it.</div>
-    <div class="outline3">This is a box with an outline around it.</div>
-    <div class="outline4">This is a box with an outline around it.</div>
-    <div class="outline5">This is a box with an outline around it.</div>
+    <button type="button">outline: solid;</button>
+    <button type="button">outline: dashed red;</button>
+    <button type="button">outline: 1rem solid;</button>
+    <button type="button">outline: thick double #32a1ce;</button>
+    <button type="button">
+      outline: 8px ridge rgba(170, 50, 220, .6); border-radius: 2rem;
+    </button>
+    <div id="target" class="outline0">
+      This is a box with an outline around it.
+    </div>
     <h2>Constituent properties</h2>
     <ul>
       <li>outline-color</li>
@@ -110,7 +115,7 @@
     </pre>
     <h3>Result</h3>
     <div class="result">
-      <a href="#">This link has a special focus style.</a>
+      <a id="result" href="#">This link has a special focus style.</a>
     </div>
     <h2>Specifications</h2>
     <h3>Specification</h3>

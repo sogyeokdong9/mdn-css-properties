@@ -1,19 +1,19 @@
 div {
   margin: 2em;
 }
-.outline1 {
+.outline0 {
   outline: solid;
 }
-.outline2 {
+.outline1 {
   outline: dashed red;
 }
-.outline3 {
+.outline2 {
   outline: 1rem solid;
 }
-.outline4 {
+.outline3 {
   outline: thick double #32a1ce;
 }
-.outline5 {
+.outline4 {
   outline: 8px ridge rgba(170, 50, 220, 0.6);
   border-radius: 2rem;
 }
